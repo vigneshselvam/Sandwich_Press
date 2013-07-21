@@ -6,4 +6,6 @@ define ("DATABASENAME","keith_sandwich");
 define ("DATABASEUSER","keith_user");
 define ("DATABASEPASS","password");
 
+define ("TITLE","a title");
+
 ?>

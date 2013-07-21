@@ -1,9 +1,4 @@
-<?php 
-/* HTML for the menu items goes here */
-echo <<< EOT
-
-
-    <table border="1">
+    <table border="1" style="width:200px">
         <thead>
             <tr>
                 <th>item</th><th>price</th>
@@ -11,11 +6,7 @@ echo <<< EOT
         </thead>
         <tbody>
             <tr>
-                <td>{$food}</td><td>{$price}</td>
+                <td><?php echo $this->item[$inner] ?></td><td><?php echo money_format('%i', $this->price[$inner]) ?></td>
             </tr>
         </tbody>
-    </table>
-
-    
-EOT;
-?>
+    </table>

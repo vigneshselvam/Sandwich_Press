@@ -1,0 +1,1 @@
+This is the home page! <a href="index.php?mode=menu">The menu!</a>
